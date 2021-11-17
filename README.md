@@ -58,6 +58,17 @@ Die folgende Nachricht wird am Ende in der Konsole ausgegeben:
 ``` 
 Password valid!
 ``` 
+## *Aufgabe 4. Galgenmännchen (https://de.wikipedia.org/wiki/Galgenm%C3%A4nnchen)
+Erstellen Sie eine neue Klasse _Hangman_ im Paket _exercise6_. 
+Drinnen werden Sie das Spiel Galgenmännchen implementieren. 
+Das Spiel soll die folgenden Funktionalitäten haben:
+* Das versteckte Wort wird von einer vordefinierten Menge von Wörtern _zufällig_ ausgewählt. (_new Random().nextInt(number)_)
+* Das versteckte Wort wird in der Konsole ausgegeben z.B. \_ \_ \_ \_. Der Benutzer soll Buchstaben eingeben, bis das ganze Wort aufgedeckt wird. Das Wort wird nach jede Eingabe ausgegeben z.B. \_ I \_ \_.
+* Die eingegebenen Buchstaben werden gespeichert und nach jeder Eingabe ausgegeben. Der Benutzer kann nicht einen schon eingegebenen Buchstaben wieder eingeben.
+* Die Anzahl der Fehler wird gespeichert und nach jeder Eingabe ausgegeben. Der Benutzer verliert das Spiel, wenn diese Anzahl einen vordefinierten Wert erreicht.
+* Am Ende jedes Spiels wird der Benutzer gefragt, ob er noch ein Spiel starten will. Der Benutzer kann _yes_ oder _no_ eingeben. Wenn _yes_, dann wird das Spiel mit einem neuen Wort gestartet.
+* Die Spielzeit wird gemessen und am Ende des Spiels ausgegeben. (_System.currentTimeMillis()_)
+
 ## Achtung! Achtung! Achtung!
 Wenn Sie alle Aufgaben gemacht haben, sollen Sie die Lösungen in _GitHub_ hochladen. 
 Wenn "Version Control" nicht verfügbar ist, geben Sie die folgenden Befehle in die Konsole ein:
