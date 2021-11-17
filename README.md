@@ -40,8 +40,7 @@ for (int i = 1; i < 1000; i++) {
 ``` 
 ## Aufgabe 2. Palindrom
 Ändern Sie die Klasse _Palindrome_ im Paket _exercise6_. 
-Der Benutzer soll eine Zahl eingeben.
-Zuerst wird überprüft, ob die Zahl großer Null ist (benutzen Sie das Schlüsselwort _assert_).
+Der Benutzer soll eine Zahl eingeben, die großer Null ist.
 Dann wird bestimmt, ob die Zahl Palindrom ist (wenn rückwärts gelesen, erscheint dieselbe Zahl z.B. 1221, 242).
 Ausgabe:
 ``` 
